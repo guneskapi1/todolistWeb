@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Yapılacaklar Listesi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>📝 Yapılacaklar Listesi</h1>
+		<input type="text" id="searchInput" placeholder="Görev ara..." style="padding: 8px; width: 200px;">
+
+
+        <div class="task-entry">
+            <h2>Görev Ekle</h2>
+            <label for="title">Başlık:</label>
+            <input type="text" id="title" placeholder="Görev başlığı">
+
+            <label for="description">Açıklama:</label>
+            <input type="text" id="description" placeholder="Görev açıklaması">
+
+            <label for="dueDate">Son Tarih:</label>
+            <input type="date" id="dueDate">
+
+            <button id="addTaskBtn">Ekle</button>
+        </div>
+
+        <hr>
+
+<div id="filterButtons" style="margin-bottom: 20px;">
+  <button onclick="filterTasks('all')">Hepsi</button>
+  <button onclick="filterTasks('completed')">Tamamlananlar</button>
+  <button onclick="filterTasks('incomplete')">Tamamlanmayanlar</button>
+</div>
+
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Başlık</th>
+                    <th>Açıklama</th>
+                    <th>Son Tarih</th>
+                    <th>Tamamlandı</th>
+					<th>Sil</th>
+                </tr>
+            </thead>
+            <tbody id="taskTableBody">
+                <!-- Görevler buraya eklenecek -->
+            </tbody>
+        </table>
+    </div>
+<script src="script.js"></script>
+
+</body>
+</html>
