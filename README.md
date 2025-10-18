@@ -30,7 +30,12 @@ todolistweb/
 
 1. Bu repository'yi klonlayın veya ZIP olarak indirin.
 2. `index.html` dosyasını tarayıcınızda açın.
-3. Görevlerinizi ekleyin, yönetin ve yönetin! 
+3. Görevlerinizi ekleyin, yönetin ve yönetin!
+
+## 🌐 Canlı Demo (GitHub Pages)
+
+🔗 [Canlı Uygulamayı Görüntüle](https://guneskapi1.github.io/todolistWeb/)
+
 
 ## Notlar
 
